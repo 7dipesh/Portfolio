@@ -2,7 +2,7 @@ import { FiGithub, FiInstagram, FiLinkedin, FiMail } from "react-icons/fi";
 import FadeInSection from "../components/FadeInSection";
 
 const socials = [
-  { label: "GitHub", href: "https://github.com/", icon: FiGithub },
+  { label: "GitHub", href: "https://github.com/7dipesh/", icon: FiGithub },
   { label: "LinkedIn", href: "https://linkedin.com/", icon: FiLinkedin },
   { label: "Instagram", href: "https://www.instagram.com/paudel_dipe_sh/", icon: FiInstagram },
 ];
