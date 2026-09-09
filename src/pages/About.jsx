@@ -1,7 +1,7 @@
 import FadeInSection from "../components/FadeInSection";
+import profileImage from "../assets/profile.jpeg";
 
 function About() {
-  const profileImage = "/src/assets/profile.jpeg";
   const fallbackImage =
     "https://ui-avatars.com/api/?name=Dipesh+Paudel&background=4c1d95&color=ffffff&size=512";
 
@@ -12,12 +12,17 @@ function About() {
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-violet-300">
             About Me
           </p>
-          <h3 className="mt-3 text-3xl font-bold text-white">Dipesh Paudel</h3>
+
+          <h3 className="mt-3 text-3xl font-bold text-white">
+            Dipesh Paudel
+          </h3>
+
           <p className="mt-5 leading-relaxed text-slate-300">
             I am a frontend developer focused on crafting polished digital
             interfaces with React and Tailwind CSS. I enjoy turning ideas into
             accessible, elegant, and high-performance products.
           </p>
+
           <div className="mt-6 flex flex-wrap gap-3">
             {["React", "Tailwind CSS", "JavaScript", "Responsive UI"].map(
               (skill) => (
@@ -31,6 +36,7 @@ function About() {
             )}
           </div>
         </div>
+
         <div className="flex items-center justify-center">
           <img
             src={profileImage}
