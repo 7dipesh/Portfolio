@@ -8,7 +8,12 @@ const skills = [
   { name: "CSS", level: 88, icon: FaCss3Alt, color: "text-blue-400" },
   { name: "JavaScript", level: 84, icon: FaJs, color: "text-yellow-300" },
   { name: "React", level: 86, icon: FaReact, color: "text-cyan-300" },
-  { name: "Tailwind CSS", level: 90, icon: SiTailwindcss, color: "text-teal-300" },
+  {
+    name: "Tailwind CSS",
+    level: 90,
+    icon: SiTailwindcss,
+    color: "text-teal-300",
+  },
   { name: "Figma", level: 78, icon: FaFigma, color: "text-pink-300" },
 ];
 
@@ -40,7 +45,6 @@ function Skills() {
                 </span>
               </div>
 
-              {/* Progress bar - percentage is hidden */}
               <div className="h-2 rounded-full bg-slate-800">
                 <div
                   className="h-2 rounded-full bg-gradient-to-r from-violet-400 to-cyan-400"
@@ -56,3 +60,4 @@ function Skills() {
 }
 
 export default Skills;
+
